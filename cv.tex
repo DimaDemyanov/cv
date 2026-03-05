@@ -1,0 +1,199 @@
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage[pdftex,hidelinks]{hyperref}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{graphicx}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.85in}
+\addtolength{\textheight}{2.3in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+
+\titleformat{\section}{
+  \vspace{-15pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\titlerule \vspace{-11pt}]
+
+\newcommand{\resumeItem}[1]{
+  \item\small{#1}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{2pt}\item
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+      \hspace{0.04in}\textbf{#1} & #2 \\
+      \hspace{0.04in}\textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-15pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in,label={},itemsep=0pt,topsep=1pt]} 
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=1pt,parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-11pt}}
+
+\begin{document}
+
+%----------HEADER----------
+
+\begin{center}
+{\Huge \scshape Dmitrii Demianov} \\
+Berlin, Germany \\ \vspace{2pt}
+
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\href{tel:+4916094651846}{\faPhone\ +49 160 94651846} \enspace|\enspace
+\href{mailto:dima.demyanov.1997@gmail.com}{\faEnvelope\ dima.demyanov.1997@gmail.com} \enspace|\enspace
+\href{https://www.linkedin.com/in/demydmi239/}{\faLinkedin\ linkedin.com/in/demydmi239} \enspace|\enspace
+\href{https://github.com/DimaDemyanov}{\faGithub\ github.com/DimaDemyanov}%
+}
+\end{center}
+
+%-----------SUMMARY-----------
+
+\vspace{-16pt}
+
+\section{SUMMARY}
+
+\vspace{2pt}
+
+Senior Software Engineer with 9+ years of experience building scalable backend systems in fintech and banking.
+Specialized in Java and Kotlin, distributed systems, and high-load transaction processing.
+Experienced in microservices architecture, cloud platforms (Azure, Google Cloud), and performance optimization, with additional full-stack experience using React and TypeScript.
+
+%-----------EXPERIENCE-----------
+
+\vspace{-1pt}
+
+\section{EXPERIENCE}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Senior Software Engineer}{Aug 2024 -- Present}
+{\href{https://www.ing.de/}{ING Deutschland}}{Berlin, Germany}
+
+\resumeItemListStart
+
+\resumeItem{Led development and rollout of the \textbf{Business Banking current account}, including features for \textbf{current and savings accounts}, \textbf{instant payments}, \textbf{verification of payee}, and marketing campaigns such as \textbf{cash incentivization}.}
+
+\resumeItem{Implemented workflow orchestration using \textbf{Camunda BPM}.}
+
+\resumeItem{Streamlined production releases by automating \textbf{CI/CD pipelines}.}
+
+\resumeItem{Increased automated test coverage from \textbf{50\% to 95\%}.}
+
+\resumeItem{\textbf{Tech:} Java, Spring Boot, Camunda, Oracle, Hibernate, Azure}
+
+\resumeItemListEnd
+
+\vspace{6pt}
+
+\resumeSubheading
+{Senior Fullstack Engineer}{May 2023 -- Jul 2024}
+{\href{https://www.deutsche-bank.de}{Deutsche Bank}}{Berlin, Germany}
+
+\resumeItemListStart
+
+\resumeItem{Developed an internal banking platform for \textbf{deal presentation request management}.}
+
+\resumeItem{Led frontend engineering, contributed to application architecture, and delivered core UI features using \textbf{React, TypeScript, and Redux}.}
+
+\resumeItem{Improved application load time by \textbf{60\%}.}
+
+\resumeItem{Introduced UI testing strategy reducing production bugs by \textbf{40\%}.}
+
+\resumeItem{\textbf{Tech:} TypeScript, React, Redux, Java, Spring Boot, Oracle, Google Cloud}
+
+\resumeItemListEnd
+
+\vspace{6pt}
+
+\resumeSubheading
+{Senior Kotlin Engineer}{Jul 2019 -- Apr 2023}
+{\href{https://www.deutsche-bank.de}{Deutsche Bank}}{Berlin, Germany}
+
+\resumeItemListStart
+
+\resumeItem{Developed a \textbf{high-load transaction reporting system} generating ~10,000 reports daily and processing over 1M transactions per day.}
+
+\resumeItem{Participated in key architecture decisions for scalability and resilience.}
+
+\resumeItem{Migrated parts of the system from monolith to \textbf{microservices architecture}.}
+
+\resumeItem{Optimized Hazelcast cluster requests reducing latency by \textbf{30\%}.}
+
+\resumeItem{Developed REST APIs for account balance services.}
+
+\resumeItem{Built Kafka tools for message reprocessing and improved system monitoring.}
+
+\resumeItem{Participated in incident management and on-call rotation.}
+
+\resumeItem{\textbf{Tech:} Kotlin, Java, Spring Boot, Oracle, Hazelcast, Kafka, Angular}
+
+\resumeItemListEnd
+
+\vspace{6pt}
+
+\resumeSubheading
+{Java Engineer}{Jan 2017 -- Jun 2019}
+{\href{https://www.dataart.com/}{DataArt}}{Saint Petersburg, Russia}
+
+\resumeItemListStart
+
+\resumeItem{Developed backend services for a \textbf{gym facility rental platform}.}
+
+\resumeItem{Designed and implemented scalable backend using \textbf{Java and Spring Boot}.}
+
+\resumeItem{Contributed to Flutter mobile application development.}
+
+\resumeItem{Implemented automated testing and improved system reliability.}
+
+\resumeItem{\textbf{Tech:} Java, Spring Boot, Hibernate, PostgreSQL, Flutter}
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\vspace{1pt}
+
+\section{EDUCATION}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{MSc in Applied Mathematics and Informatics}{}
+{\href{https://english.spbstu.ru/}{Peter the Great St. Petersburg Polytechnic University}}{}
+
+\resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+
+\vspace{1pt}
+
+\section{CERTIFICATIONS}
+
+\vspace{2pt}
+
+\href{https://coursera.org/share/e12f35f62b90ef628b7a1da3aff6500e}{Kotlin for Java Developers} | \href{https://www.credly.com/badges/0bcb9354-f5b2-4477-96b1-03b188d196f1?source=linked_in_profile}{Oracle Certified Associate} | React Developer Professional Training Course
+
+%-----------LANGUAGES-----------
+
+\section{LANGUAGES}
+
+\vspace{2pt}
+
+English (Professional proficiency) | German (Advanced) | Russian (Native)
+
+\end{document}
